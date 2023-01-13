@@ -1,4 +1,4 @@
-import Character from './character.js';
+// import Character from './character.js';
 
 export default class Team {
   constructor() {
@@ -11,12 +11,15 @@ export default class Team {
     }
     return this.members.add(data);
   }
+
+  addAll(...args) {
+    for (const arg of args) {
+      this.members.add(arg);
+    }
+    return this.members;
+  }
+
+  toArray() {
+    return Array.from(this.members);
+  }
 }
-
-// Метод add должен добавлять выбранного персонажа в команду (объект класса Character).
-// При этом такой объект уже существует в команде — дублирования быть не должно, должна генерироваться ошибка.
-
-// Метод addAll должен добавлять произвольное количество персонажей в команду — используйте rest-parameters. 
-// Задвоения быть не должно, ошибка генерироваться не должна.
-
-// Метод toArray должен производить конвертацию Set в массив.
