@@ -1,12 +1,12 @@
-import Character from './character.js';
-import Team from './team.js';
+import Character from './character';
+import Team from './team';
 
 const person = new Character('ivan', 'Bowman');
 console.log(person);
 
 const team = new Team();
-const bowman = new Character('ivan', 'Bowman');
-const warior = new Character('ivan', 'Warior');
+const bowman = ('ivan', 'Bowman');
+const warior = ('ivan', 'Warior');
 
 team.add(bowman);
 team.add(warior);

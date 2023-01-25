@@ -1,5 +1,3 @@
-// import Character from './character.js';
-
 export default class Team {
   constructor() {
     this.members = new Set();

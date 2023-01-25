@@ -3,14 +3,13 @@
   "version": "1.0.0",
   "description": "Домашнее задание к лекции  Контейнеры» / Set",
   "main": "index.js",
-  "type": "module",
   "scripts": {
-    "test": "jest --coverage"
+    "test": "jest --coverage",
+    "lint": "eslint ."
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kksyai/AJS-08-1.git",
-    "lint": "eslint"
+    "url": "git+https://github.com/kksyai/AJS-08-1.git"
   },
   "author": "",
   "license": "ISC",
@@ -22,7 +21,7 @@
     "@babel/cli": "^7.20.7",
     "@babel/core": "^7.20.12",
     "@babel/preset-env": "^7.20.2",
-    "babel-jest": "^29.3.1",
+    "babel-jest": "^29.4.0",
     "eslint": "^8.31.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-import": "^2.27.4",
