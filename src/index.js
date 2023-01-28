@@ -12,6 +12,6 @@ team.add(bowman);
 team.add(warior);
 // team.add(bowman);
 
-console.log(team);
+// console.log(team);
 
-console.log(team.addAll(bowman, warior, bowman));
+// console.log(team.addAll(bowman, warior, bowman));
